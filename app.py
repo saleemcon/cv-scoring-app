@@ -5,8 +5,8 @@ from PyPDF2 import PdfReader
 from dotenv import load_dotenv, find_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType, tool
-
 import os
+
 os.getenv("OPENAI_API_KEY")
 
 ########################### Model Definition ##################################################33
